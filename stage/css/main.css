@@ -15,6 +15,9 @@
   transition: 0.3s;
   float: right;
 }
+.page .content-area.no-sidebar {
+  width: 100%;
+}
 
 .page .sidebar {
   width: 250px;
@@ -25,4 +28,11 @@
   left: 0;
   transition: 0.3s;
   padding: 15px;
+}
+.page .sidebar.no-sidebar {
+  left: -250px;
+}
+
+.header .toggle-sidebar {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
